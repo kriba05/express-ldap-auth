@@ -1,0 +1,33 @@
+{
+  "name": "express-ldap-auth",
+  "version": "1.0.0",
+  "description": "Ldap Authentication and Authorization middleware for Node Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kriba05/express-ldap-auth.git"
+  },
+  "keywords": [
+    "ldap",
+    "authentication",
+    "express",
+    "authentication",
+    "middleware",
+    "node",
+    "authentication"
+  ],
+  "author": "Balasubramanian Krishnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kriba05/express-ldap-auth/issues"
+  },
+  "homepage": "https://github.com/kriba05/express-ldap-auth#readme",
+  "dependencies": {
+    "basic-auth": "^1.1.0",
+    "bluebird": "^3.5.0",
+    "ldapjs": "^1.0.1"
+  }
+}
